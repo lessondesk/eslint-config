@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-nitpicky",
+  "version": "1.0.0",
+  "description": "Personalized eslint config",
+  "main": "index.js",
+  "repository": "https://github.com/tiaanduplessis/eslint-config-nitpicky",
+  "author": "Tiaan du Plessis",
+  "license": "MIT",
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-compat": "^2.5.1",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.22.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "nitpicky"
+  ]
+}
