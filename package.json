@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nitpicky",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Personalized eslint config",
   "main": "index.js",
   "repository": "https://github.com/tiaanduplessis/eslint-config-nitpicky",
