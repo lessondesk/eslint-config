@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="header.png" width="80%" alt="eslint-config-nitpicky">
+  <img src="header.png" alt="eslint-config-nitpicky">
 </div>
 
 
