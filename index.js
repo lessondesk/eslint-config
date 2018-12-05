@@ -13,6 +13,7 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/no-did-mount-set-state': 'off',
     'import/prefer-default-export': 'off',
+    'no-use-before-define': 0,
     'no-param-reassign': 'off',
     semi: [2, 'never'],
   },
