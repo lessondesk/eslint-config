@@ -35,8 +35,7 @@ official ESLint website.
 To use this config, run:
 
 ```bash
-npm install --save-dev eslint-config-nitpicky eslint-config-airbnb 
-eslint-plugin-babel eslint-plugin-compat eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-jest eslint-plugin-react babel-eslint eslint
+npm install --save-dev eslint-config-nitpicky eslint-config-airbnb eslint-plugin-babel eslint-plugin-compat eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-jest eslint-plugin-react babel-eslint eslint
 ```
 
 Then, add this to your `.eslintrc` file:
