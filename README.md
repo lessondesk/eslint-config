@@ -1,5 +1,8 @@
+<div align="center">
+  <img src="header.png" width="80%" alt="eslint-config-nitpicky">
+</div>
 
-# eslint-config-nitpicky
+
 [![package version](https://img.shields.io/npm/v/eslint-config-nitpicky.svg?style=flat-square)](https://npmjs.org/package/eslint-config-nitpicky)
 [![package downloads](https://img.shields.io/npm/dm/eslint-config-nitpicky.svg?style=flat-square)](https://npmjs.org/package/eslint-config-nitpicky)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
@@ -10,10 +13,11 @@
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Install](#install)
 - [Usage](#usage)
 - [Contribute](#contribute)
-- [License](#License)
+- [License](#license)
 
 ## Install
 
