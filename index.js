@@ -12,6 +12,7 @@ module.exports = {
   rules: {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/no-did-mount-set-state': 'off',
+    'react/prop-types': 'off',
     'import/prefer-default-export': 'off',
     'no-use-before-define': 0,
     'no-param-reassign': 'off',
