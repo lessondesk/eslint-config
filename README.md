@@ -13,21 +13,9 @@
 
 ## Table of Contents
 
-- [Table of Contents](#table-of-contents)
-- [Install](#install)
 - [Usage](#usage)
 - [Contribute](#contribute)
 - [License](#license)
-
-## Install
-
-This project uses [node](https://nodejs.org) and [npm](https://www.npmjs.com). 
-
-```sh
-$ npm install -D eslint-config-nitpicky
-$ # OR
-$ yarn add -D eslint-config-nitpicky
-```
 
 ## Usage
 
