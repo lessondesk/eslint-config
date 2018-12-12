@@ -45,7 +45,11 @@ You can override settings from the shareable config by adding them directly into
 
 ### Using with prettier
 
-Follow instructions for [prettier-eslint-cli](https://github.com/prettier/prettier-eslint-cli)
+Follow instructions for [prettier-eslint-cli](https://github.com/prettier/prettier-eslint-cli) installation and add script:
+
+```
+"format": "prettier-eslint --write --eslint-ignore"
+```
 
 ## Contribute
 
