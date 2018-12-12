@@ -43,6 +43,10 @@ _Note: The `eslint-config-` prefix  has been omitted since it is automatically a
 You can override settings from the shareable config by adding them directly into your
 `.eslintrc` file.
 
+### Using with prettier
+
+Follow instructions for [prettier-eslint-cli](https://github.com/prettier/prettier-eslint-cli)
+
 ## Contribute
 
 1. Fork it and create your feature branch: `git checkout -b my-new-feature`
