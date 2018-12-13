@@ -3,7 +3,7 @@ module.exports = {
   extends: ['airbnb', 'plugin:flowtype/recommended', 'plugin:jest/recommended', 'plugin:compat/recommended', 'plugin:security/recommended'],
   plugins: [
     'babel',
-    'security'
+    'security',
   ],
   env: {
     browser: true,
