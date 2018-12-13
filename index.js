@@ -1,8 +1,9 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['airbnb', 'plugin:flowtype/recommended', 'plugin:jest/recommended', 'plugin:compat/recommended'],
+  extends: ['airbnb', 'plugin:flowtype/recommended', 'plugin:jest/recommended', 'plugin:compat/recommended', 'plugin:security/recommended'],
   plugins: [
     'babel',
+    'security'
   ],
   env: {
     browser: true,
