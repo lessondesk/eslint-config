@@ -27,11 +27,11 @@ official ESLint website.
 To use this config, run:
 
 ```bash
-$ npm install --save-dev eslint-config-nitpicky eslint-config-airbnb eslint-plugin-babel eslint-plugin-compat eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-jest eslint-plugin-react babel-eslint eslint eslint-plugin-promise
+$ npm install --save-dev eslint-config-nitpicky eslint-config-airbnb eslint-plugin-babel eslint-plugin-compat eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-jest eslint-plugin-react babel-eslint eslint eslint-plugin-promise eslint-plugin-unicorn
 
 # OR
 
-$ yarn add --dev eslint-config-nitpicky eslint-config-airbnb eslint-plugin-babel eslint-plugin-compat eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-jest eslint-plugin-react babel-eslint eslint eslint-plugin-promise
+$ yarn add --dev eslint-config-nitpicky eslint-config-airbnb eslint-plugin-babel eslint-plugin-compat eslint-plugin-flowtype eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-jest eslint-plugin-react babel-eslint eslint eslint-plugin-promise eslint-plugin-unicorn
 ```
 
 Then, add this to your `.eslintrc` file:

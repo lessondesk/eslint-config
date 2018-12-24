@@ -1,5 +1,7 @@
 module.exports = {
   parser: 'babel-eslint',
+
+  // NOTE: Next rulesets will override previous
   extends: [
     'airbnb',
     'plugin:flowtype/recommended',
@@ -7,6 +9,7 @@ module.exports = {
     'plugin:compat/recommended',
     'plugin:security/recommended',
     'plugin:promise/recommended',
+    'plugin:unicorn/recommended',
   ],
   plugins: [
     'babel',
