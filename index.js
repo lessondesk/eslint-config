@@ -1,9 +1,17 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['airbnb', 'plugin:flowtype/recommended', 'plugin:jest/recommended', 'plugin:compat/recommended', 'plugin:security/recommended'],
+  extends: [
+    'airbnb',
+    'plugin:flowtype/recommended',
+    'plugin:jest/recommended',
+    'plugin:compat/recommended',
+    'plugin:security/recommended',
+    'plugin:promise/recommended',
+  ],
   plugins: [
     'babel',
     'security',
+    'promise',
   ],
   env: {
     browser: true,
