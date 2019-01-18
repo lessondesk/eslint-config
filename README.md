@@ -8,6 +8,7 @@
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![package license](https://img.shields.io/npm/l/eslint-config-nitpicky.svg?style=flat-square)](https://npmjs.org/package/eslint-config-nitpicky)
 [![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![nitpicky-code-style](https://img.shields.io/badge/code%20style-nitpicky-7681ED.svg?style=flat-square)](https://github.com/tiaanduplessis/eslint-config-nitpicky)
 
 > Personalized eslint config
 
@@ -53,6 +54,12 @@ Follow instructions for [prettier-eslint-cli](https://github.com/prettier/pretti
 
 ```
 "format": "prettier-eslint --write --eslint-ignore"
+```
+
+### Add a badge [![nitpicky-code-style](https://img.shields.io/badge/code%20style-nitpicky-7681ED.svg?style=flat-square)](https://github.com/tiaanduplessis/eslint-config-nitpicky)
+
+```
+[![nitpicky-code-style](https://img.shields.io/badge/code%20style-nitpicky-7681ED.svg?style=flat-square)](https://github.com/tiaanduplessis/eslint-config-nitpicky)
 ```
 
 ## Contribute
