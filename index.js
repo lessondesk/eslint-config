@@ -1,35 +1,53 @@
 module.exports = {
-  parser: 'babel-eslint',
-
-  // NOTE: Next rulesets will override previous
-  extends: [
-    'airbnb',
-    'plugin:flowtype/recommended',
-    'plugin:jest/recommended',
-    'plugin:compat/recommended',
-    'plugin:security/recommended',
+  'extends': [
+    'eslint:recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
     'plugin:promise/recommended',
-    'plugin:unicorn/recommended',
+    'prettier',
   ],
-  plugins: [
-    'babel',
-    'security',
-    'promise',
-  ],
-  env: {
-    browser: true,
-    node: true,
-    jest: true,
+  'parser': 'babel-eslint',
+  'parserOptions': {
+    'ecmaVersion': 2018,
   },
-  rules: {
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    'react/no-did-mount-set-state': 'off',
-    'react/prop-types': 'off',
-    'import/prefer-default-export': 'off',
-    'no-use-before-define': 0,
+  'env': {
+    'es6': true,
+  },
+  'rules': {
+    // Based on https://github.com/Upstatement/eslint-config
+    'no-console': ['error', { 'allow': ['warn', 'error'] }],
+    'curly': 'error',
+    'eqeqeq': 'error',
+    'no-eq-null': 'error',
+    'no-use-before-define': ['error', 'nofunc'],
+    'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
+    'comma-dangle': ['error', 'always-multiline'],
+    'comma-spacing': 'error',
+    'comma-style': 'error',
+    'func-call-spacing': 'error',
+    'indent': ['error', 2, { 'SwitchCase': 1, 'MemberExpression': 1 }],
+    'key-spacing': ['error', { 'mode': 'minimum' }],
+    'keyword-spacing': 'error',
+    'object-curly-spacing': ['error', 'always'],
+    'one-var': ['error', 'never'],
+    'quotes': ['error', 'single', { 'allowTemplateLiterals': true }],
+    'semi': [2, 'never'],
+    'space-before-function-paren': ['error', {
+      'anonymous': 'never',
+      'named': 'never',
+      'asyncArrow': 'always',
+    }],
+    'space-infix-ops': 'error',
+    'arrow-body-style': ['error', 'as-needed'],
+    'arrow-parens': ['error', 'as-needed'],
+    'arrow-spacing': 'error',
+    'no-duplicate-imports': 'error',
+    'no-useless-constructor': 'error',
+    'no-var': 'error',
+    'prefer-const': 'error',
+    'prefer-template': 'error',
     'no-param-reassign': 'off',
-    semi: [2, 'never'],
-    'unicorn/filename-case': 0,
-    'security/detect-object-injection': 0
+
+    'import/prefer-default-export': 'off',
   },
 }
