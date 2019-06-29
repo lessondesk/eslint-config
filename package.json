@@ -20,7 +20,7 @@
   "peerDependencies": {
     "babel-eslint": "^10.x.x",
     "eslint": "^5.x.x",
-    "eslint-config-prettier": "^4.x.x",
+    "eslint-config-prettier": "^4.x.x || ^6.0.0",
     "prettier": "^1.x.x"
   },
   "keywords": [
