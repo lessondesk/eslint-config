@@ -23,5 +23,6 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/no-did-mount-set-state': 'off',
     'react/prop-types': 'off',
+    'no-console': ['warn', { 'allow': ['warn', 'error'] }],
   },
 }

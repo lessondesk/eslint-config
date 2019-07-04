@@ -1,15 +1,9 @@
-<div align="center">
-  <img src="header.png" alt="eslint-config-nitpicky" width="60%">
-</div>
+# @lessondesk/eslint-config
 
-[![package version](https://img.shields.io/npm/v/eslint-config-nitpicky.svg?style=flat-square)](https://npmjs.org/package/eslint-config-nitpicky)
-[![package downloads](https://img.shields.io/npm/dm/eslint-config-nitpicky.svg?style=flat-square)](https://npmjs.org/package/eslint-config-nitpicky)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![package license](https://img.shields.io/npm/l/eslint-config-nitpicky.svg?style=flat-square)](https://npmjs.org/package/eslint-config-nitpicky)
 [![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![nitpicky-code-style](https://img.shields.io/badge/code%20style-nitpicky-7681ED.svg?style=flat-square)](https://github.com/tiaanduplessis/eslint-config-nitpicky)
+[![lessondesk-code-style](https://img.shields.io/badge/code%20style-lessondesk-ffa400.svg?style=flat-square)](https://github.com/lessondesk/eslint-config)
 
-> ESLint config for the refined individual
+> ESLint config for [Lesson Desk](https://www.lessondesk.com/)
 
 ## Table of Contents
 
@@ -29,16 +23,16 @@ official ESLint website.
 
 ## Usage
 
-This package has several peer dependencies. Run `npm info "eslint-config-nitpicky@latest" peerDependencies` to list them all.
+This package has several peer dependencies. Run `npm info "@lessondesk/eslint-config@latest" peerDependencies` to list them all.
 
 Install all the dependencies:
 
 ```bash
-npm install --save-dev eslint-config-nitpicky eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import
+npm install --save-dev @lessondesk/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import
 
 # or
 
-yarn add --dev eslint-config-nitpicky eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import
+yarn add --dev @lessondesk/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import
 ```
 
 
@@ -46,7 +40,7 @@ Then, add this to your `.eslintrc` file:
 
 ```json
 {
-  "extends": "nitpicky",
+  "extends": "@lessondesk",
   "env": {
     "browser": true,
   }
@@ -66,10 +60,10 @@ Follow instructions for [prettier-eslint-cli](https://github.com/prettier/pretti
 "format": "prettier-eslint --write --eslint-ignore"
 ```
 
-### Add a badge [![nitpicky-code-style](https://img.shields.io/badge/code%20style-nitpicky-7681ED.svg?style=flat-square)](https://github.com/tiaanduplessis/eslint-config-nitpicky)
+### Add a badge [![lessondesk-code-style](https://img.shields.io/badge/code%20style-lessondesk-ffa400.svg?style=flat-square)](https://github.com/lessondesk/eslint-config)
 
 ```
-[![nitpicky-code-style](https://img.shields.io/badge/code%20style-nitpicky-7681ED.svg?style=flat-square)](https://github.com/tiaanduplessis/eslint-config-nitpicky)
+[![lessondesk-code-style](https://img.shields.io/badge/code%20style-lessondesk-ffa400.svg?style=flat-square)](https://github.com/lessondesk/eslint-config)
 ```
 
 ## Configurations
@@ -85,11 +79,11 @@ Includes the [default configuration](./index.js) as well as [React](https://reac
 Setup:
 
 ```bash
-$ npm install --save-dev eslint-config-nitpicky eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+$ npm install --save-dev @lessondesk/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 
 # or
 
-yarn add --dev eslint-config-nitpicky eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+yarn add --dev @lessondesk/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 
 ```
 
@@ -97,18 +91,9 @@ In your `.eslintrc`:
 
 ```json
 {
-  "extends": "nitpicky/react"
+  "extends": "@lessondesk/eslint-config/react"
 }
 ```
-
-## Other
-
-Useful project specific plugins to consider:
-
-- [`eslint-plugin-jest`](https://www.npmjs.com/package/eslint-plugin-jest)
-- [`eslint-plugin-security`](https://github.com/nodesecurity/eslint-plugin-security)
-- [`eslint-plugin-flowtype`](https://github.com/gajus/eslint-plugin-flowtype)
-- [`eslint-plugin-compat`](https://github.com/amilajack/eslint-plugin-compat)
 
 ## Contribute
 

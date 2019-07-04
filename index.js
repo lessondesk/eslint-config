@@ -14,7 +14,6 @@ module.exports = {
     'es6': true,
   },
   'rules': {
-    // Based on https://github.com/Upstatement/eslint-config
     'no-console': ['error', { 'allow': ['warn', 'error'] }],
     'curly': 'error',
     'eqeqeq': 'error',
