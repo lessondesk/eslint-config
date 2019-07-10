@@ -14,7 +14,7 @@ module.exports = {
     'es6': true,
   },
   'rules': {
-    "no-console": "off",
+    'no-console': 'off',
     'curly': 'error',
     'eqeqeq': 'error',
     'no-eq-null': 'error',
@@ -47,11 +47,11 @@ module.exports = {
     'prefer-template': 'error',
     'no-param-reassign': 'off',
 
-    "promise/catch-or-return": "off",
-    "promise/always-return": "off",
+    'promise/catch-or-return': 'off',
+    'promise/always-return': 'off',
 
-    "import/default": "off",
-    "import/no-unresolved": "off",
+    'import/default': 'off',
+    'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
   },
 }
