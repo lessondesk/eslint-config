@@ -16,6 +16,11 @@ module.exports = {
     'node': true,
     'es6': true,
   },
+  settings: {
+    react: {
+      version: "detect"
+    },
+  },
   'rules': {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
@@ -23,6 +28,5 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
     'react/no-did-mount-set-state': 'off',
     'react/prop-types': 'off',
-    'no-console': ['warn', { 'allow': ['warn', 'error'] }],
   },
 }
