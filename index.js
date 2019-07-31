@@ -15,6 +15,7 @@ module.exports = {
   },
   'rules': {
     'no-console': ['warn', { 'allow': ['warn', 'error'] }],
+    'max-len': ["warn", { "code": 100 }],
     'curly': 'error',
     'eqeqeq': 'error',
     'no-eq-null': 'error',
