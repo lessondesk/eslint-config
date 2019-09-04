@@ -1,6 +1,6 @@
 {
   "name": "@lessondesk/eslint-config",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "ESLint config for Lesson Desk",
   "main": "index.js",
   "repository": "https://github.com/lessondesk/eslint-config",
