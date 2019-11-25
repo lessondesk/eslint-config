@@ -42,7 +42,7 @@ Then, add this to your `.eslintrc` file:
 {
   "extends": "@lessondesk",
   "env": {
-    "browser": true,
+    "browser": true
   }
 }
 ```
